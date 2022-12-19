@@ -6,6 +6,8 @@ import 'antd/dist/reset.css';
 import '../styles/globals.css';
 import { QueryCache, QueryClient, QueryClientProvider } from 'react-query';
 
+import { appWithTranslation } from 'next-i18next';
+
 const queryCache = new QueryCache();
 const queryClient = new QueryClient({
   queryCache,
@@ -29,4 +31,4 @@ function MyApp({ Component, pageProps }: AppProps) {
   );
 }
 
-export default MyApp;
+export default appWithTranslation(MyApp);
