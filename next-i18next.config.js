@@ -5,7 +5,6 @@ module.exports = {
     defaultLocale: 'en',
     locales: ['en', 'vi']
   },
-  localePath: path.resolve('./src/translation'),
-  localeStructure: '{{lng}}',
-  deefaultNS: '{{lng}}'
+  localePath: path.resolve('./src/translation')
+  // localeStructure: '{{lng}}',
 };
