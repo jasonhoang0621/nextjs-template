@@ -34,7 +34,7 @@ export default function Home() {
 
   return (
     <>
-      <div onClick={() => setIsModalVisible(true)}>{t('hello')}</div>
+      <div onClick={() => setIsModalVisible(true)}>{t('login.remember_me')}</div>
       <div onClick={handleChangeLanguage}>{t('Change language')}</div>
       <h1 className='text-3xl font-bold underline text-red-400'>Hello world!</h1>
       <div className='mt-2'>

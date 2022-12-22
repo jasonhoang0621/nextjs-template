@@ -19,12 +19,6 @@
       "src/*": ["src/*"]
     }
   },
-  "include": [
-    "next-env.d.ts",
-    "**/*.ts",
-    "**/*.tsx",
-    "src/translation/en.js",
-    "src/config/i18n.js"
-  ],
+  "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", "src/config/i18n.js"],
   "exclude": ["node_modules"]
 }
